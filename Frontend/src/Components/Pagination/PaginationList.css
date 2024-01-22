@@ -1,0 +1,83 @@
+.data {
+    margin: 20px;
+  }
+  
+  .data h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .data ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .data li {
+    margin-bottom: 10px;
+  }
+  
+  .pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .indexofpages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .indexofpages button {
+    background-color: #be3aca;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .indexofpages button:disabled {
+    background-color: #ddd;
+    color: #555;
+    cursor: not-allowed;
+  }
+  
+  .contactsperpage select {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .contactsperpage span {
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container th, .table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table-container th {
+    background-color: #cab645;
+    color: white;
+  }
+  
+  .table-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }

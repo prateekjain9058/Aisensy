@@ -1,0 +1,28 @@
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+
+.first{
+    padding: 10px 12px 10px 12px;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 10% 10% 10%;
+    
+
+}
+.second{
+    padding: 10px 12px 10px 12px;
+    flex: 3;
+    margin: 2% 10% 10% 10%;
+
+}
+.third{
+    padding: 10px 12px 10px 12px;
+    flex: 4;
+    margin: 2% 10% 10% 10%;
+
+}
